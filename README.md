@@ -1,11 +1,11 @@
 # SMNTCS Custom Logo Link
 
-[![](https://img.shields.io/github/license/nielslange/smntcs-custom-logo-link.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-[![](https://plugintests.com/plugins/smntcs-custom-logo-link/wp-badge.svg)](https://plugintests.com/plugins/smntcs-custom-logo-link/latest)
-[![](https://plugintests.com/plugins/smntcs-custom-logo-link/php-badge.svg)](https://plugintests.com/plugins/smntcs-custom-logo-link/latest)
-[![](https://img.shields.io/wordpress/plugin/dt/smntcs-custom-logo-link.svg)](https://wordpress.org/plugins/smntcs-custom-logo-link/)
-[![](https://img.shields.io/wordpress/plugin/v/smntcs-custom-logo-link.svg)](https://wordpress.org/plugins/smntcs-custom-logo-link/)
-[![](https://img.shields.io/github/tag/nielslange/smntcs-custom-logo-link.svg)](https://wordpress.org/plugins/smntcs-custom-logo-link/)
+[![](https://img.shields.io/github/license/nielslange/smntcs-disable-rest-api-user-endpoints.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/wp-badge.svg)](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/latest)
+[![](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/php-badge.svg)](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/latest)
+[![](https://img.shields.io/wordpress/plugin/dt/smntcs-disable-rest-api-user-endpoints.svg)](https://wordpress.org/plugins/smntcs-disable-rest-api-user-endpoints/)
+[![](https://img.shields.io/wordpress/plugin/v/smntcs-disable-rest-api-user-endpoints.svg)](https://wordpress.org/plugins/smntcs-disable-rest-api-user-endpoints/)
+[![](https://img.shields.io/github/tag/nielslange/smntcs-disable-rest-api-user-endpoints.svg)](https://wordpress.org/plugins/smntcs-disable-rest-api-user-endpoints/)
 
 Allows to customize the logo link.
 
