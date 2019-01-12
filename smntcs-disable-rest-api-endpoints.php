@@ -7,14 +7,14 @@
  * Author URI: https://nielslange.com
  * Version: 1.0
  * Requires at least: 4.7
- * Tested up to: 4.9
+ * Tested up to: 5.0
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: smntcs-disable-rest-api-user-endpoints
  * Domain Path: /languages/
  */
 
-/*  Copyright 2014-2016	Niels Lange (email : info@nielslange.com)
+/*  Copyright 2014-2016    Niels Lange (email : info@nielslange.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,24 +29,25 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
-
+ */
 
 // Avoid direct plugin access
-if ( !defined( 'ABSPATH' ) ) exit;
+if (!defined('ABSPATH')) {
+    die('¯\_(ツ)_/¯');
+}
 
 // Load text domain
-add_action('plugins_loaded', function() {
-	load_plugin_textdomain( 'smntcs-disable-rest-api-user-endpoints', false, dirname( plugin_basename(__FILE__) ) . '/languages/' );
+add_action('plugins_loaded', function () {
+    load_plugin_textdomain('smntcs-disable-rest-api-user-endpoints', false, dirname(plugin_basename(__FILE__)) . '/languages/');
 });
 
 // Disable REST API user endpoints
-add_filter( 'rest_endpoints', function( $endpoints ){
-	if ( isset( $endpoints['/wp/v2/users'] ) ) {
-		unset( $endpoints['/wp/v2/users'] );
-	}
-	if ( isset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] ) ) {
-		unset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] );
-	}
-	return $endpoints;
+add_filter('rest_endpoints', function ($endpoints) {
+    if (isset($endpoints['/wp/v2/users'])) {
+        unset($endpoints['/wp/v2/users']);
+    }
+    if (isset($endpoints['/wp/v2/users/(?P<id>[\d]+)'])) {
+        unset($endpoints['/wp/v2/users/(?P<id>[\d]+)']);
+    }
+    return $endpoints;
 });

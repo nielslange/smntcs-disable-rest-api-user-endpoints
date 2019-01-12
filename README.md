@@ -1,4 +1,4 @@
-# SMNTCS Custom Logo Link
+# SMNTCS Disable REST API User Endpoints
 
 [![](https://img.shields.io/github/license/nielslange/smntcs-disable-rest-api-user-endpoints.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/wp-badge.svg)](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/latest)
@@ -7,10 +7,9 @@
 [![](https://img.shields.io/wordpress/plugin/v/smntcs-disable-rest-api-user-endpoints.svg)](https://wordpress.org/plugins/smntcs-disable-rest-api-user-endpoints/)
 [![](https://img.shields.io/github/tag/nielslange/smntcs-disable-rest-api-user-endpoints.svg)](https://wordpress.org/plugins/smntcs-disable-rest-api-user-endpoints/)
 
-Allows to customize the logo link.
+Disable the REST API user endpoints due to obscure user slugs
 
 ## Installation
 
-1. Upload 'smntcs-custom-logo-link' to the '/wp-content/plugins/' directory
+1. Upload 'smntcs-disable-rest-api-user-endpoints' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to 'Appearance' » 'Customize' » 'Logo Link' and provide the logo link
