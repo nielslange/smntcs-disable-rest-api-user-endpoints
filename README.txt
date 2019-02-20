@@ -3,9 +3,9 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QL92KESGMVT4Q
 Tags: REST API, Endpoints, Security
-Version: 1.0
+Version: 1.2
 Requires at least: 4.7
-Tested up to: 5.0
+Tested up to: 5.1
 License: GPL2+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
