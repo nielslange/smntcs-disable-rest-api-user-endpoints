@@ -26,5 +26,11 @@ Simple activate the plugin and you're done.
 
 == Changelog ==
 
+= 1.2 =
+* Refactored based on PHPCS and WPCS
+
+= 1.1 =
+* Tested up to 5.1
+
 = 1.0 =
 * Initial release
