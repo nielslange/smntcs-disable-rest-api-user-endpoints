@@ -1,0 +1,26 @@
+{
+	"name": "smntcs-disable-rest-api-user-endpoints",
+	"version": "1.0.0",
+	"description": "Disable the REST API user endpoints due to security reasons.",
+	"author": "Niels Lange",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Plugin",
+		"SMNTCS Disable REST API User Endpoints"
+	],
+	"homepage": "https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^5.0.0"
+	},
+	"scripts": {
+		"lint:pkg-json": "wp-scripts lint-pkg-json"
+	}
+}

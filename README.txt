@@ -6,10 +6,10 @@ Tags: REST API, Endpoints, Security
 Version: 1.2
 Requires at least: 4.7
 Tested up to: 5.1
-License: GPL2+
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: GPL3+
+License URI: https://www.gnu.org/licenses/gpl.html
 
-Disable the REST API user endpoints due to obscure user slugs
+Disable the REST API user endpoints due to obscure user slugs.
 
 == Description ==
 
@@ -17,8 +17,8 @@ With WordPress 4.7 the REST API is part of the core. At the moment everyone has 
 
 == Installation ==
 
-1. Upload 'smntcs-disable-rest-api-user-endpoints' to the '/wp-content/plugins/' directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload `smntcs-disable-rest-api-user-endpoints` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the `Plugins` menu in WordPress
 
 == Screenshots ==
 

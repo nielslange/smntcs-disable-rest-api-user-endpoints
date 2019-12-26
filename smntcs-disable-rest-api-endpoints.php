@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SMNTCS Disable REST API User Endpoints
  * Plugin URI: https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints
- * Description: Disable the REST API user endpoints due to security reasons
+ * Description: Disable the REST API user endpoints due to security reasons.
  * Author: Niels Lange <info@nielslange.de>
  * Author URI: https://nielslange.de
  * Text Domain: smntcs-disable-rest-api-user-endpoints
@@ -11,8 +11,8 @@
  * Requires at least: 4.7
  * Requires PHP: 5.6
  * Tested up to: 5.1
- * License: GPL2+
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * License: GPL3+
+ * License URI: https://www.gnu.org/licenses/gpl.html
  *
  * @category   Plugin
  * @package    WordPress
@@ -23,6 +23,8 @@
 
 /**
  * Avoid direct plugin access
+ *
+ * @since 1.0.0
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '¯\_(ツ)_/¯' );
@@ -30,6 +32,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Load text domain
+ *
+ * @since 1.0.0
  */
 add_action(
 	'plugins_loaded',
@@ -40,7 +44,9 @@ add_action(
 
 /**
  * Disable REST API user endpoints
- */
+ *
+ * @since 1.0.0
+*/
 add_filter(
 	'rest_endpoints',
 	function ( $endpoints ) {
