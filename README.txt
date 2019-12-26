@@ -3,9 +3,9 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QL92KESGMVT4Q
 Tags: REST API, Endpoints, Security
-Version: 1.2
+Version: 1.3
 Requires at least: 4.7
-Tested up to: 5.1
+Tested up to: 5.3
 License: GPL3+
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -26,11 +26,15 @@ Simple activate the plugin and you're done.
 
 == Changelog ==
 
+= 1.3 =
+* [Add build tools](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/3)
+* [Test up to 5.3](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/2)
+
 = 1.2 =
-* Refactored based on PHPCS and WPCS
+* Refactor based on PHPCS and WPCS
 
 = 1.1 =
-* Tested up to 5.1
+* Test up to 5.1
 
 = 1.0 =
 * Initial release
