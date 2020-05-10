@@ -6,8 +6,8 @@
  * Author: Niels Lange <info@nielslange.de>
  * Author URI: https://nielslange.de
  * Text Domain: smntcs-disable-rest-api-user-endpoints
- * Version: 1.4
- * Stable Tag: 1.4
+ * Version: 1.5
+ * Stable Tag: 1.5
  * Requires at least: 4.6
  * Requires PHP: 5.6
  * Tested up to: 5.4
@@ -29,17 +29,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '¯\_(ツ)_/¯' );
 }
-
-/**
- * Load text domain
- *
- * @return void
- * @since 1.0.0
- */
-function smntcsdraue_plugins_loaded() {
-	load_plugin_textdomain( 'smntcs-disable-rest-api-user-endpoints', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-}
-add_action( 'plugins_loaded', 'smntcsdraue_plugins_loaded' );
 
 /**
  * Disable REST API user endpoints.
