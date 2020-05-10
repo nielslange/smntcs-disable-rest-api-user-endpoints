@@ -6,10 +6,9 @@
  * Author: Niels Lange <info@nielslange.de>
  * Author URI: https://nielslange.de
  * Text Domain: smntcs-disable-rest-api-user-endpoints
- * Domain Path: /languages/
  * Version: 1.4
  * Stable Tag: 1.4
- * Requires at least: 4.7
+ * Requires at least: 4.6
  * Requires PHP: 5.6
  * Tested up to: 5.4
  * License: GPLv2
