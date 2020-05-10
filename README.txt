@@ -3,11 +3,12 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QL92KESGMVT4Q
 Tags: REST API, Endpoints, Security
-Version: 1.3
+Version: 1.4
+Stable Tag: 1.4
 Requires at least: 4.7
-Tested up to: 5.3
-License: GPL3+
-License URI: https://www.gnu.org/licenses/gpl.html
+Tested up to: 5.4
+License: GPLv2
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 Disable the REST API user endpoints due to obscure user slugs.
 
@@ -25,6 +26,10 @@ With WordPress 4.7 the REST API is part of the core. At the moment everyone has 
 Simple activate the plugin and you're done.
 
 == Changelog ==
+
+= 1.4 =
+* [Update plugin header](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/5)
+* Test up to 5.4
 
 = 1.3 =
 * [Add build tools](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/3)

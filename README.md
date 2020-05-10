@@ -22,6 +22,10 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-disable-rest-api
 
 ## Changelog
 
+### 1.4
+* [Update plugin header](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/5)
+* Test up to 5.4
+
 ### 1.3
 * [Add build tools](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/3)
 * [Test up to 5.3](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/2)
