@@ -1,13 +1,13 @@
 {
 	"name": "nielslange/smntcs-disable-rest-api-user-endpoints",
-	"type": "plugin",
 	"description": "Disable the REST API user endpoints due to security reasons.",
+	"homepage": "https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints",
+	"type": "wordpress-plugin",
 	"keywords": [
 		"WordPress",
 		"Plugin",
 		"SMNTCS Disable REST API User Endpoints"
 	],
-	"homepage": "https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints",
 	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
@@ -16,20 +16,21 @@
 		}
 	],
 	"require": {
-		"php": ">=5.6"
+		"php": ">=7.0"
 	},
 	"require-dev": {
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-		"jakub-onderka/php-parallel-lint": "^1.0",
-		"wptrt/wpthemereview": "^0.2.1"
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+		"humanmade/psalm-plugin-wordpress": "^2.0",
+		"overtrue/phplint": "^2.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"squizlabs/php_codesniffer": "^3.6",
+		"vimeo/psalm": "^4.7",
+		"wp-coding-standards/wpcs": "^2.3"
 	},
 	"scripts": {
-		"checkcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --runtime-set testVersion 5.6-",
-		"fixcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --runtime-set testVersion 5.6-",
-		"lint": "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor ."
-	},
-	"support": {
-		"issues": "https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues",
-		"source": "https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints"
+		"cbf": "phpcbf --standard=.phpcs.xml .",
+		"cs": "phpcs --standard=.phpcs.xml .",
+		"lint": "phplint",
+		"psalm": "psalm --no-cache"
 	}
 }
