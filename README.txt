@@ -3,10 +3,10 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QL92KESGMVT4Q
 Tags: REST API, Endpoints, Security
-Version: 1.6
-Requires at least: 4.6
-Tested up to: 5.6
-Requires PHP: 5.6
+Version: 1.7
+Requires at least: 5.5
+Tested up to: 5.7
+Requires PHP: 7.0
 License: GPLv2
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
