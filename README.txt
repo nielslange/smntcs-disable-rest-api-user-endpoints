@@ -3,7 +3,7 @@
 Contributors: nielslange
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QL92KESGMVT4Q
 Tags: REST API, Endpoints, Security
-Version: 1.7
+Version: 1.8
 Stable tag: trunk
 Tested up to: 5.8
 Requires at least: 5.5
