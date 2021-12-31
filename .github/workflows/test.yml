@@ -1,6 +1,6 @@
-name: Run integration scripts
+name: Run PHPCS, PHPLint and Psalm
 
-on: push
+on: [pull_request]
 
 jobs:
   test:
@@ -20,14 +20,14 @@ jobs:
       - name: Show version info
         run: |
           php --version
-          ./vendor/bin/psalm --version
           ./vendor/bin/phpcs --version
           ./vendor/bin/phplint --version
+          ./vendor/bin/psalm --version
       - name: Run PHP_CodeSniffer
-        run: composer cs
+        run: composer phpcs
 
       - name: Run PHPLint
-        run: composer lint
+        run: composer phplint
 
       - name: Run Psalm
         run: composer psalm
