@@ -6,19 +6,17 @@
  * Author: Niels Lange <info@nielslange.de>
  * Author URI: https://nielslange.de
  * Text Domain: smntcs-disable-rest-api-user-endpoints
- * Version: 1.8
- * Stable tag: trunk
+ * Version: 1.9
  * Requires at least: 5.5
- * Tested up to: 5.8
- * Requires PHP: 7.0
- * License: GPLv2
- * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+ * Requires PHP: 5.6
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  *
  * @category   Plugin
  * @package    WordPress
  * @subpackage SMNTCS Disable REST API User Endpoints
  * @author     Niels Lange <info@nielslange.de>
- * @license    https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html GNU General Public License, version 2
+ * @license    https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 // Avoid direct plugin access.
