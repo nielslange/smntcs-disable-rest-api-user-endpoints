@@ -1,25 +1,20 @@
 <?php
 /**
- * Plugin Name: SMNTCS Disable REST API User Endpoints
- * Plugin URI: https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints
- * Description: Disable the REST API user endpoints due to security reasons.
- * Author: Niels Lange <info@nielslange.de>
- * Author URI: https://nielslange.de
- * Text Domain: smntcs-disable-rest-api-user-endpoints
- * Version: 1.9
- * Requires at least: 5.5
- * Requires PHP: 5.6
- * License: GPL v2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Plugin Name:           SMNTCS Disable REST API User Endpoints
+ * Plugin URI:            https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints
+ * Description:           Disable the REST API user endpoints due to security reasons.
+ * Author:                Niels Lange
+ * Author URI:            https://nielslange.de
+ * Text Domain:           smntcs-disable-rest-api-user-endpoints
+ * Version:               2.0
+ * Requires PHP:          5.6
+ * Requires at least:     5.5
+ * License:               GPL v2 or later
+ * License URI:           https://www.gnu.org/licenses/gpl-2.0.html
  *
- * @category   Plugin
- * @package    WordPress
- * @subpackage SMNTCS Disable REST API User Endpoints
- * @author     Niels Lange <info@nielslange.de>
- * @license    https://www.gnu.org/licenses/gpl-2.0.html
+ * @package SMNTCS_Disable_REST_API_User_Endpoints
  */
 
-// Avoid direct plugin access.
 defined( 'ABSPATH' ) || exit;
 
 /**
