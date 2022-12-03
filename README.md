@@ -28,21 +28,21 @@ You can find the plugin on <https://wordpress.org/plugins/smntcs-disable-rest-ap
 
 ### 1.9 (2022.06.09)
 
-- Test up to WordPress 6.0
+- Test up to WP 6.0
 
 ### 1.8 (2021.12.31)
 
-- Test up to WordPress 5.8
+- Test up to WP 5.8
 
 ### 1.7 (2021.05.01)
 
 - [Add build tools](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/21)
 - [Add GitHub Actions](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/23)
-- [Test up to WordPress 5.7](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/25)
+- [Test up to WP 5.7](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/25)
 
 ### 1.6 (2021.01.08)
 
-- Test up to WordPress 5.6
+- Test up to WP 5.6
 
 ### 1.5 (2020.05.10)
 
@@ -51,7 +51,7 @@ You can find the plugin on <https://wordpress.org/plugins/smntcs-disable-rest-ap
 ### 1.4 (2020.05.10)
 
 - [Update plugin header](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/5)
-- Test up to WordPress 5.4
+- Test up to WP 5.4
 
 ### 1.3 (2019.12.26)
 
@@ -64,7 +64,7 @@ You can find the plugin on <https://wordpress.org/plugins/smntcs-disable-rest-ap
 
 ### 1.1 (2019.02.20)
 
-- Test up to WordPress 5.1
+- Test up to WP 5.1
 
 ### 1.0 (2018.03.27)
 
