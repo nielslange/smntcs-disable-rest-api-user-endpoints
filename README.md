@@ -1,13 +1,13 @@
 # SMNTCS Disable REST API User Endpoints
 
-![Support Level](https://img.shields.io/badge/support-active-green.svg)]
+![Support Level](https://img.shields.io/badge/support-active-green.svg)
 ![Build Status](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/actions/workflows/test.yml/badge.svg)
-![GPLv2 License](https://img.shields.io/github/license/nielslange/smntcs-disable-rest-api-user-endpoints.svg)]
-![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/wp-badge.svg)]
-![Compatible to PHP version](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/php-badge.svg)]
-![Downloads](https://img.shields.io/wordpress/plugin/dt/smntcs-disable-rest-api-user-endpoints.svg)]
-![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-disable-rest-api-user-endpoints.svg)]
-![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-disable-rest-api-user-endpoints.svg)]
+![GPLv2 License](https://img.shields.io/github/license/nielslange/smntcs-disable-rest-api-user-endpoints.svg)
+![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/wp-badge.svg)
+![Compatible to PHP version](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/php-badge.svg)
+![Downloads](https://img.shields.io/wordpress/plugin/dt/smntcs-disable-rest-api-user-endpoints.svg)
+![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-disable-rest-api-user-endpoints.svg)
+![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-disable-rest-api-user-endpoints.svg)
 
 Disable the REST API user endpoints due to obscure user slugs.
 
