@@ -2,8 +2,8 @@
 
 Contributors:       nielslange
 Tags:               REST API, Endpoints, Security
-Stable tag:         2.0
-Tested up to:       6.1
+Stable tag:         2.1
+Tested up to:       6.2
 Requires PHP:       5.6
 Requires at least:  5.0
 License:            GPL v2 or later
@@ -13,18 +13,22 @@ Disable the REST API user endpoints due to obscure user slugs.
 
 == Description ==
 
-With WordPress 4.7 the REST API is part of the core. At the moment everyone has read access to the REST API. As a result of that a potential intruder can retrieve a list of all user slugs via /wp-json/wp/v2/users. This plugin disables the REST API user endpoints to obscure the user slugs.
+With WordPress 4.7 the REST API is part of the core. At the moment everyone has read access to the REST API. As a result of that a potential intruder can retrieve a list of all user slugs via `/wp-json/wp/v2/users`. This plugin disables the REST API user endpoints to obscure the user slugs.
 
 == Installation ==
 
-1. Upload `smntcs-disable-rest-api-user-endpoints` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the `Plugins` menu in WordPress
+1. Upload `smntcs-disable-rest-api-user-endpoints` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the `Plugins` menu in WordPress.
 
 == Screenshots ==
 
 Simple activate the plugin and you're done.
 
 == Changelog ==
+
+= 2.1 (2023.03.11) =
+
+- Test up to WP 6.2
 
 = 2.0 (2022.12.03) =
 

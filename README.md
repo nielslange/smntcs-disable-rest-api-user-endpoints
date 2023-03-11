@@ -2,10 +2,12 @@
 
 ![Support Level](https://img.shields.io/badge/support-active-green.svg)
 ![Build Status](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/actions/workflows/test.yml/badge.svg)
+![Deploy Status](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/actions/workflows/deploy.yml/badge.svg)
 ![GPLv2 License](https://img.shields.io/github/license/nielslange/smntcs-disable-rest-api-user-endpoints.svg)
 ![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/wp-badge.svg)
 ![Compatible to PHP version](https://plugintests.com/plugins/smntcs-disable-rest-api-user-endpoints/php-badge.svg)
 ![Downloads](https://img.shields.io/wordpress/plugin/dt/smntcs-disable-rest-api-user-endpoints.svg)
+![Active Installs](https://img.shields.io/wordpress/plugin/installs/smntcs-disable-rest-api-user-endpoints.svg)
 ![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-disable-rest-api-user-endpoints.svg)
 ![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-disable-rest-api-user-endpoints.svg)
 
@@ -13,14 +15,18 @@ Disable the REST API user endpoints due to obscure user slugs.
 
 ## Installation
 
-1. Upload `smntcs-disable-rest-api-user-endpoints` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the `Plugins` menu in WordPress
+1. Upload `smntcs-disable-rest-api-user-endpoints` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the `Plugins` menu in WordPress.
 
 ## Plugin page
 
 You can find the plugin on <https://wordpress.org/plugins/smntcs-disable-rest-api-user-endpoints/>.
 
 ## Changelog
+
+### 2.1 (2023.03.11)
+
+- Test up to WP 6.2
 
 ### 2.0 (2022.12.03)
 
