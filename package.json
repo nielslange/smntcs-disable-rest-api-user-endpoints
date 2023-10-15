@@ -26,11 +26,11 @@
 		"prettier": "npm:wp-prettier@2.0.5"
 	},
 	"scripts": {
-		"test": "npm-run-all --parallel phpcs phplint psalm",
 		"phpcbf": "composer run phpcbf",
 		"phpcs": "composer run phpcs",
 		"phplint": "composer run phplint",
 		"psalm": "composer run psalm",
+		"test": "npm-run-all --parallel phpcs phplint psalm",
 		"test:e2e": "cypress run --headless --browser chrome",
 		"test:e2e-dev": "cypress open",
 		"wp-env": "wp-env",

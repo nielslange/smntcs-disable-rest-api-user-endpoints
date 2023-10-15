@@ -20,18 +20,35 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Disable REST API user endpoints.
  *
- * @param array $endpoints The original endpoints.
- * @return array The updated endpoints.
  * @since 1.0.0
  */
-function smntcs_rest_endpoints( $endpoints ) {
-	if ( isset( $endpoints['/wp/v2/users'] ) ) {
-		unset( $endpoints['/wp/v2/users'] );
-	}
-	if ( isset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] ) ) {
-		unset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] );
+class SMNTCS_Disable_REST_API_User_Endpoints {
+
+	/**
+	 * Constructor function.
+	 */
+	public function __construct() {
+		add_filter( 'rest_endpoints', array( $this, 'smntcs_rest_endpoints' ) );
 	}
 
-	return $endpoints;
+	/**
+	 * Disable REST API user endpoints.
+	 *
+	 * @param array $endpoints The original endpoints.
+	 * @return array The updated endpoints.
+	 * @since 1.0.0
+	 */
+	public function smntcs_rest_endpoints( $endpoints ) {
+		if ( isset( $endpoints['/wp/v2/users'] ) ) {
+			unset( $endpoints['/wp/v2/users'] );
+		}
+
+		if ( isset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] ) ) {
+			unset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] );
+		}
+
+		return $endpoints;
+	}
 }
-add_filter( 'rest_endpoints', 'smntcs_rest_endpoints' );
+
+new SMNTCS_Disable_REST_API_User_Endpoints();
