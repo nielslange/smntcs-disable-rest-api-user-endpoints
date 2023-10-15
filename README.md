@@ -24,6 +24,11 @@ You can find the plugin on <https://wordpress.org/plugins/smntcs-disable-rest-ap
 
 ## Changelog
 
+### 2.2 (2023.10.15)
+
+- Test up to WP 6.4
+- Convert code to OOP
+
 ### 2.1 (2023.03.11)
 
 - Test up to WP 6.2
