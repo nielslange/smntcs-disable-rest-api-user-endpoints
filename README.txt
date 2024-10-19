@@ -2,8 +2,8 @@
 
 Contributors:       nielslange
 Tags:               REST API, Endpoints, Security
-Stable tag:         2.2
-Tested up to:       6.4
+Stable tag:         2.3
+Tested up to:       6.6
 Requires PHP:       5.6
 Requires at least:  5.0
 License:            GPL v2 or later
@@ -30,36 +30,40 @@ Simple activate the plugin and you're done.
 
 == Changelog ==
 
+= 2.3 (2024.10.19) =
+
+- Test up to WordPress 6.6
+
 = 2.2 (2023.10.15) =
 
-- Test up to WP 6.4
+- Test up to WordPress 6.4
 - Convert code to OOP
 
 = 2.1 (2023.03.11) =
 
-- Test up to WP 6.2
+- Test up to WordPress 6.2
 
 = 2.0 (2022.12.03) =
 
-- Test up to WP 6.1
+- Test up to WordPress 6.1
 
 = 1.9 (2022.06.09) =
 
-- Test up to WP 6.0
+- Test up to WordPress 6.0
 
 = 1.8 (2021.12.31) =
 
-- Test up to WP 5.8
+- Test up to WordPress 5.8
 
 = 1.7 (2021.05.01) =
 
 - [Add build tools](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/21)
 - [Add GitHub Actions](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/23)
-- [Test up to WP 5.7](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/25)
+- [Test up to WordPress 5.7](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/25)
 
 = 1.6 (2021.01.08) =
 
-- Test up to WP 5.6
+- Test up to WordPress 5.6
 
 = 1.5 (2020.05.10) =
 
@@ -68,7 +72,7 @@ Simple activate the plugin and you're done.
 = 1.4 (2020.05.10) =
 
 - [Update plugin header](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/5)
-- Test up to WP 5.4
+- Test up to WordPress 5.4
 
 = 1.3 (2019.12.26) =
 
@@ -81,7 +85,7 @@ Simple activate the plugin and you're done.
 
 = 1.1 (2019.02.20) =
 
-- Test up to WP 5.1
+- Test up to WordPress 5.1
 
 = 1.0 (2018.03.27) =
 
