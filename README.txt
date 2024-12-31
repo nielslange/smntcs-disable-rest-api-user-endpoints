@@ -2,8 +2,8 @@
 
 Contributors:       nielslange
 Tags:               REST API, Endpoints, Security
-Stable tag:         2.3
-Tested up to:       6.6
+Stable tag:         2.4
+Tested up to:       6.7
 Requires PHP:       5.6
 Requires at least:  5.0
 License:            GPL v2 or later
@@ -29,6 +29,10 @@ Contributions are more than welcome. Simply head over to [Github](https://github
 Simple activate the plugin and you're done.
 
 == Changelog ==
+
+= 2.4 (2024.12.31) =
+
+- Test up to WordPress 6.7
 
 = 2.3 (2024.10.19) =
 
