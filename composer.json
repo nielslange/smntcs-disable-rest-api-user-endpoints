@@ -15,9 +15,6 @@
 			"homepage": "https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/graphs/contributors"
 		}
 	],
-	"require": {
-		"php": ">=8.1"
-	},
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
 		"humanmade/psalm-plugin-wordpress": "^2.0",
