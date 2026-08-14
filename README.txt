@@ -2,8 +2,8 @@
 
 Contributors:       nielslange
 Tags:               REST API, Endpoints, Security
-Stable tag:         2.4
-Tested up to:       6.7
+Stable tag:         2.5
+Tested up to:       7.0
 Requires PHP:       5.6
 Requires at least:  5.0
 License:            GPL v2 or later
@@ -29,6 +29,11 @@ Contributions are more than welcome. Simply head over to [Github](https://github
 Simple activate the plugin and you're done.
 
 == Changelog ==
+
+= 2.5 (2026.08.14) =
+
+- [Keep REST API user endpoints available for logged-in users](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/31) ([#33](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/33))
+- Test up to WordPress 7.0
 
 = 2.4 (2024.12.31) =
 
