@@ -6,7 +6,7 @@
  * Author:              Niels Lange
  * Author URI:          https://nielslange.de
  * Text Domain:         smntcs-disable-rest-api-user-endpoints
- * Version:             2.4
+ * Version:             2.5
  * Requires PHP:        5.6
  * Requires at least:   5.5
  * License:             GPL v2 or later
@@ -32,13 +32,20 @@ class SMNTCS_Disable_REST_API_User_Endpoints {
 	}
 
 	/**
-	 * Disable REST API user endpoints.
+	 * Disable REST API user endpoints for unauthenticated requests.
+	 *
+	 * Logged-in users keep access, as WordPress admin screens and plugins
+	 * like WooCommerce rely on these endpoints.
 	 *
 	 * @param array $endpoints The original endpoints.
 	 * @return array The updated endpoints.
 	 * @since 1.0.0
 	 */
 	public function smntcs_rest_endpoints( $endpoints ) {
+		if ( is_user_logged_in() ) {
+			return $endpoints;
+		}
+
 		if ( isset( $endpoints['/wp/v2/users'] ) ) {
 			unset( $endpoints['/wp/v2/users'] );
 		}

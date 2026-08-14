@@ -19,3 +19,9 @@ Cypress.Commands.add( 'checkPluginActivation', () => {
 		}
 	);
 } );
+
+Cypress.Commands.add( 'getRestNonce', () => {
+	return cy
+		.request( 'http://localhost:8889/wp-admin/admin-ajax.php?action=rest-nonce' )
+		.its( 'body' );
+} );
