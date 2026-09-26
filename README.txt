@@ -1,23 +1,27 @@
 === SMNTCS Disable REST API User Endpoints ===
 
 Contributors:       nielslange
-Tags:               REST API, Endpoints, Security
-Stable tag:         2.5
-Tested up to:       7.0
+Tags:               rest api, users, security, user enumeration, privacy
+Requires at least:  5.5
+Tested up to:       7.1
 Requires PHP:       5.6
-Requires at least:  5.0
+Stable tag:         2.6
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
-Disable the REST API user endpoints due to obscure user slugs.
+Hides the list of user accounts that the WordPress REST API shows to visitors who are not logged in, which helps prevent user enumeration.
 
 == Description ==
 
-With WordPress 4.7 the REST API is part of the core. At the moment everyone has read access to the REST API. As a result of that a potential intruder can retrieve a list of all user slugs via `/wp-json/wp/v2/users`. This plugin disables the REST API user endpoints to obscure the user slugs.
+By default, anyone can request `/wp-json/wp/v2/users` on a WordPress site and get a list of every author's username slug. Attackers use that list to guess logins.
+
+SMNTCS Disable REST API User Endpoints removes the user endpoints from the REST API for visitors who are not logged in. Logged-in users and everything else in the REST API keep working, including the block editor.
+
+There are no settings. Activate the plugin and the user endpoints are gone.
 
 == Contribute ==
 
-Contributions are more than welcome. Simply head over to [Github](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/) and open an issue or a pull request.
+Contributions are more than welcome. Simply head over to [GitHub](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/) and open an issue or a pull request.
 
 == Installation ==
 
@@ -26,9 +30,14 @@ Contributions are more than welcome. Simply head over to [Github](https://github
 
 == Screenshots ==
 
-Simple activate the plugin and you're done.
+Simply activate the plugin and you're done.
 
 == Changelog ==
+
+= 2.6 (2026.09.26) =
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
 
 = 2.5 (2026.08.14) =
 

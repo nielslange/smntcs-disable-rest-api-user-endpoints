@@ -24,6 +24,11 @@ You can find the plugin on <https://wordpress.org/plugins/smntcs-disable-rest-ap
 
 ## Changelog
 
+### 2.6 (2026.09.26)
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
+
 ### 2.5 (2026.08.14)
 
 -   [Keep REST API user endpoints available for logged-in users](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/31) ([#33](https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues/33))

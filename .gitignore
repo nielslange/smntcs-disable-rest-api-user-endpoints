@@ -7,3 +7,5 @@ vendor/
 /.phplint.cache
 cypress/videos/
 cypress/screenshots/
+playwright-report
+test-results
