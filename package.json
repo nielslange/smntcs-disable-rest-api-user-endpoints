@@ -18,9 +18,10 @@
 		"url": "https://github.com/nielslange/smntcs-disable-rest-api-user-endpoints/issues"
 	},
 	"devDependencies": {
+		"@playwright/test": "1.64.1",
+		"@wordpress/e2e-test-utils-playwright": "3.1.0",
 		"@wordpress/env": "11.16.0",
 		"@wordpress/prettier-config": "4.56.0",
-		"cypress": "16.1.0",
 		"eslint": "^10.11.0",
 		"npm-run-all2": "^9.0.3",
 		"prettier": "npm:wp-prettier@3.9.6"
@@ -31,9 +32,10 @@
 		"phplint": "composer run phplint",
 		"psalm": "composer run psalm",
 		"test": "npm-run-all --parallel phpcs phplint psalm",
-		"test:e2e": "cypress run --headless --browser chrome",
-		"test:e2e-dev": "cypress open",
 		"wp-env": "wp-env",
-		"wp-env:rc": "wp-env run cli sh -c 'wp core update --version=6.2-RC1 && wp core update --version=6.2-RC1 --force'"
-	}
+		"wp-env:rc": "wp-env run cli sh -c 'wp core update --version=6.2-RC1 && wp core update --version=6.2-RC1 --force'",
+		"test:e2e": "playwright test",
+		"test:e2e:ui": "playwright test --ui"
+	},
+	"packageManager": "pnpm@12.8.1"
 }
