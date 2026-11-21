@@ -9,3 +9,6 @@ cypress/videos/
 cypress/screenshots/
 playwright-report
 test-results
+/artifacts/
+/test-results/
+/playwright-report/
